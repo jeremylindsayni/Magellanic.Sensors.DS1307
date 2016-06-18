@@ -3,6 +3,15 @@
   "version": 2,
   "targets": {
     "UAP,Version=v10.0": {
+      "Magellanic.I2c/0.0.3-alpha": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Magellanic.I2C.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Magellanic.I2C.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -1887,6 +1896,15 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
+      "Magellanic.I2c/0.0.3-alpha": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Magellanic.I2C.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Magellanic.I2C.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -3628,6 +3646,15 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
+      "Magellanic.I2c/0.0.3-alpha": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Magellanic.I2C.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Magellanic.I2C.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -5332,6 +5359,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
+      "Magellanic.I2c/0.0.3-alpha": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Magellanic.I2C.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Magellanic.I2C.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -7080,6 +7116,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
+      "Magellanic.I2c/0.0.3-alpha": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Magellanic.I2C.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Magellanic.I2C.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -8784,6 +8829,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
+      "Magellanic.I2c/0.0.3-alpha": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Magellanic.I2C.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Magellanic.I2C.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -10532,6 +10586,15 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
+      "Magellanic.I2c/0.0.3-alpha": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Magellanic.I2C.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Magellanic.I2C.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -12237,6 +12300,15 @@
     }
   },
   "libraries": {
+    "Magellanic.I2c/0.0.3-alpha": {
+      "sha512": "X+z1c5vHSUuxu7QkJzum83/lOMAvKTAAA49+MHErsk4BkLGFKOWCTKcUwXJkLc5+e6w6V9J2rTTZHPG8NvxNnw==",
+      "type": "package",
+      "files": [
+        "Magellanic.I2c.0.0.3-alpha.nupkg.sha512",
+        "Magellanic.I2c.nuspec",
+        "lib/uap10.0/Magellanic.I2C.dll"
+      ]
+    },
     "Microsoft.CSharp/4.0.0": {
       "sha512": "oWqeKUxHXdK6dL2CFjgMcaBISbkk+AqEg+yvJHE4DElNzS4QaTsCflgkkqZwVlWby1Dg9zo9n+iCAMFefFdJ/A==",
       "type": "package",
@@ -15376,6 +15448,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
+      "Magellanic.I2c >= 0.0.3-alpha",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0"
     ],
     "UAP,Version=v10.0": []
